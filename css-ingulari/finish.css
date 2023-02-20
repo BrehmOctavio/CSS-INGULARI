@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box
+}
+body{
+    height: auto;
+    width: 1530px;
+    margin: auto;
+    padding: 0px;
+    background-color: black;
+}
+section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.astronaut{
+    height: 100px;
+    width: auto;
+    margin: 30px;
+    animation: astronaut 10s infinite alternate ease-in-out;
+}
+@keyframes astronaut {
+    0%{
+        transform: translateX(-200px);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+}
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+}
+.time{
+    text-align: center;
+    width: auto;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    border-radius: 10px;
+    border: 2px dashed white;
+    padding: 25px;
+}
